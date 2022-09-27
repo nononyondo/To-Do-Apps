@@ -1,0 +1,40 @@
+
+#footer {
+  margin-top: 100px;
+  margin-bottom: 0px;
+  background: #000;
+  color: #fff;
+  text-align: center;  
+}
+
+#footer-para{
+  text-align: center;
+  margin: 5px;
+  
+}
+
+
+
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .row {
+    margin-top: 20px;
+  }
+
+  #footer {
+    margin-top: 100px; 
+    margin-bottom: 0px;    
+    background: #000;
+    max-width: 100%;
+    text-align: center;
+    color: #fff;
+  }
+
+  #footer-para{
+    text-align: center;
+    font-size: 13px;
+    margin: 5px;
+  }
+}
+
